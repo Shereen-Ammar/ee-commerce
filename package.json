@@ -7,8 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:e-commerce": "node dist/e-commerce/server/server.mjs",
-    "vercel-build": "npm install --legacy-peer-deps && ng build"
+    "serve:ssr:e-commerce": "node dist/e-commerce/server/server.mjs"
   },
   "prettier": {
     "printWidth": 100,
